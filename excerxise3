@@ -1,6 +1,7 @@
 a=[1,1,2,3,5,8,13,21,3,0,89]
+number=int(input('enter a number'))
 x = []
 for element in a:
-    if element<5:
+    if element<number:
        x.append(element)
 print(x)
