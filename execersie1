@@ -1,0 +1,9 @@
+import datetime
+name=input('enter your name')
+age=int(input('entere your age')
+copies= input('enter the number of copies')
+now=datetime.datetime.now()
+century=((now.year-age)+100)
+while copies>0
+  print('the year you are turning hundred is' century)
+  copies-=1
